@@ -27,7 +27,7 @@ Publish the website in the given URL.
 
 # PROGRAM:
 administration.html
-'''
+```
 
 {% extends 'base.html' %}
 {% block title %}Administration — Spice Delight{% endblock %}
@@ -44,10 +44,10 @@ administration.html
   </div>
 </section>
 {% endblock %}
-'''
+```
 
 base.html
-'''
+```
 
 {% load static %}
 <!DOCTYPE html>
@@ -140,10 +140,10 @@ footer {
   </footer>
 </body>
 </html>
-'''
+```
 
 contact.html
-'''
+```
 
 {% extends 'base.html' %}
 {% block title %}Contact Us — Spice Delight{% endblock %}
@@ -155,10 +155,10 @@ contact.html
   <p>✉️ Email: {{ contact.email }}</p>
 </section>
 {% endblock %}
-'''
+```
 
 home.html
-'''
+```
 {% extends 'base.html' %}
 {% block title %}Home — Spice Delight{% endblock %}
 {% block content %}
@@ -167,10 +167,10 @@ home.html
   <p>Serving traditional flavors with a modern twist. Join us for an unforgettable experience.</p>
 </section>
 {% endblock %}
-'''
+```
 
 menu.html
-'''
+```
 
 {% extends 'base.html' %}
 {% block title %}Menu — Spice Delight{% endblock %}
@@ -187,8 +187,10 @@ menu.html
   </div>
 </section>
 {% endblock %}
-'''
+```
 # OUTPUT:
+
 ![alt text](image.png)
 # RESULT:
+
 The program for designing software company website using HTML and CSS is completed successfully.
